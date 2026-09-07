@@ -1,0 +1,46 @@
+.et-tick-container {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 4px;
+  vertical-align: middle;
+  font-family: Arial, sans-serif;
+}
+
+.et-tick {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: -1px;
+  user-select: none;
+}
+
+.et-tick .et-tick-glyph {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.et-tick.sent {
+  color: #9aa0a6;
+}
+
+.et-tick.read {
+  color: #1a73e8;
+}
+
+.et-tick-single::after {
+  content: '';
+}
+
+.et-tick-tooltip {
+  position: absolute;
+  background: rgba(32, 33, 36, 0.95);
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  white-space: nowrap;
+  z-index: 2000;
+  pointer-events: none;
+}

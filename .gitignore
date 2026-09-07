@@ -1,0 +1,14 @@
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+backend/.env
+backend/tracker.db
+
+# Node
+extension/node_modules/
+extension/dist/
+
+# OS
+.DS_Store
+Thumbs.db
